@@ -98,6 +98,8 @@
 #include "GCS_Mavlink.h"
 #include "GCS_Rover.h"
 
+#inclulde <AP_Follow/AP_Follow.h>
+
 class Rover : public AP_HAL::HAL::Callbacks {
 public:
     friend class GCS_MAVLINK_Rover;
